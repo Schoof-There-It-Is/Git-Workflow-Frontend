@@ -7,4 +7,6 @@ let getPeople = function(success, failure){
   .fail(failure);
 };
 
-module.exports = getPeople;
+module.exports = {
+  getPeople
+};
