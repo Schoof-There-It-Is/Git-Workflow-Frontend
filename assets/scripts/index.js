@@ -9,7 +9,7 @@ require('./example');
 const api = require('./api');
 const ui = require('./ui');
 
-$('#show-company-info').on('click', function(event){
+$('#show-user-info').on('click', function(event){
   event.preventDefault();
   api.getPeople(ui.getPeopleSuccess, ui.getPeopleFailure);
 });
